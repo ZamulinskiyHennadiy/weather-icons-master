@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'waethericons';
   src: url('./font/weathericons-regular-webfont.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
+  font-weight: avto;
+  font-style: avto;
 }
 
 * {
@@ -56,6 +56,9 @@ ul {
   height: 592px;
   background: #fff;
   border: 1px solid #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
 }
 
 .cities {
