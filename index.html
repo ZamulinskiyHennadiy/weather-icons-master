@@ -1,70 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather</title>
   <link rel="stylesheet" href="css/weather-icons.css">
   <link rel="stylesheet" href="style.css">
-  
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' style='background:black'><text y='16' font-family='Trebuchet MS' font-weight='900' fill='orange'>UB</text></svg>">
+  <script src="script.js" defer></script>
+  <title>Weather</title>
+
+
 </head>
+
 <body>
   <main>
 
-      <header>
-        <h2>CSS weather Forecast<i class="wi wi-sunrise"></i></h2>
-      </header>
-  <ul class="cities">
-    <li class="big">
-      <h4>Lisbon</h4>
-      <span>21°C</span>
-      <i class="wi wi-day-sunny"></i>
-    </li><li class="">
-      <h4>Paris</h4>
-      <span>11°C</span>
-      <i class="wi wi-night-hail"></i>
-    </li><li class="">
-      <h4>Belgrade</h4>
-      <span>15°C</span>
-      <i class="wi wi-day-cloudy"></i>
-    </li><li class="">
-      <h4>Venice</h4>
-      <span>21°C</span>
-      <i class="wi wi-day-cloudy-high"></i>
-    </li><li class="">
-      <h4>Tel-Avive</h4>
-      <span>32°C</span>
-      <i class="wi wi-hot"></i>
-    </li><li class="">
-      <h4>Cair</h4>
-      <span>21°C</span>
-      <i class="wi wi-day-sunny "></i>
-    </li><li class="">
-      <h4>New-York</h4>
-      <span>17°C</span>
-      <i class="wi wi-day-sleet-storm "></i>
-    </li><li class="">
-      <h4>New-Delhi</h4>
-      <span>17°C</span>
-      <i class="wi wi-rain-wind"></i>
-    </li><li class="big">
-      <h4>San-Francisco</h4>
-      <span>15°C</span>
-      <i class="wi wi-day-cloudy"></i>
-    </li><li class="">
-      <h4>Tokyo</h4>
-      <span>8°C</span>
-      <i class="wi wi-night-clear"></i>
-    </li><li class="large">
-      <h4>Sydney</h4>
-      <span>25°C</span>
-      <i class="wi wi-night-partly-cloudy"></i>
-    </li>
-  </ul>
+    <header>
+      <h2>CSS weather Forecast<i class="wi wi-sunrise"></i></h2>
+    </header>
+    <ul class="cities">
+      <li class="big" data-city="Lisbon">
+        <h4>Lisbon</h4>
+        <span class="temp">Завантаження...</span>
+        <i class="wi wi-day-sunny"></i>
+      </li>
+      <li class="" data-city="Paris">
+        <h4>Paris</h4>
+        <span class="temp">Завантаження...</span>
+        <i class="wi wi-night-hail"></i>
+      </li>
+      <li class="" data-city="Belgrade">
+        <h4>Belgrade</h4>
+        <span class="temp">Завантаження...</span>
+        <i class="wi wi-day-cloudy"></i>
+      </li>
+      <li class=""  data-city="Venice">
+        <h4>Venice</h4>
+        <span class="temp">Завантаження...</span>
+        <i class="wi wi-day-cloudy-high"></i>
+      </li>
+      <li class="" data-city="Tel-Aviv">
+        <h4>Tel-Avive</h4>
+        <span class="temp">Завантаження...</span>
+        <i class="wi wi-hot"></i>
+      </li>
+      <li class="" data-city="Cairo">
+        <h4>Cair</h4>
+        <span class="temp">Завантаження...</span>
+        <i class="wi wi-day-sunny "></i>
+      </li>
+      <li class="" data-city="New-York">
+        <h4>New-York</h4>
+        <span class="temp">Завантаження...</span>
+        <i class="wi wi-day-sleet-storm "></i>
+      </li>
+      <li class=""  data-city="New-Delhi">
+        <h4>New-Delhi</h4>
+        <span class="temp">Завантаження...</span>
+        <i class="wi wi-rain-wind"></i>
+      </li>
+      <li class="big" data-city="San-Francisco">
+        <h4>San-Francisco</h4>
+        <span class="temp">Завантаження...</span>
+        <i class="wi wi-day-cloudy"></i>
+      </li>
+      <li class="" data-city="Tokyo">
+        <h4>Tokyo</h4>
+        <span class="temp">Завантаження...</span>
+        <i class="wi wi-night-clear"></i>
+      </li>
+      <li class="large"  data-city="Sydney">
+        <h4>Sydney</h4>
+        <span class="temp">Завантаження...</span>
+        <i class="wi wi-night-partly-cloudy"></i>
+      </li>
+    </ul>
     <footer>
       <p>Have a nice day and don't forget umbrella if you are in New Delhi now!</p>
     </footer>
-  
+
   </main>
 </body>
+
 </html>
